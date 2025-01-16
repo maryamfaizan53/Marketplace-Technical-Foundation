@@ -14,17 +14,6 @@ Schemas
 API Design
 Workflow Analysis
 
-```mermaid
-graph TD
-    A[User] -->|Browses| B[Frontend]
-    B --> C[Sanity CMS]
-    C -->|Fetches Data| D[Product Database]
-    D -->|Updates| E[Frontend]
-    E -->|Sends Order| F[Order Management]
-    F --> G[Shipping API]
-    F --> H[Payment Gateway]
-
-
 ## Introduction
 
 ShopCO is a modern and responsive e-commerce platform designed to deliver a premium shopping experience. Built on Next.js, Sanity CMS, and third-party APIs, it ensures efficient data flow, real-time updates, and intuitive navigation. Developed during Hackathon 3, ShopCO emphasizes scalability and user-centric design.
@@ -32,8 +21,6 @@ ShopCO is a modern and responsive e-commerce platform designed to deliver a prem
 ## Planning the Technical Foundation
 
 The project integrates robust technologies and workflows to create a solid foundation for e-commerce applications, focusing on dynamic content delivery and smooth user interactions.
-
-![Alt text describing the image](/Documentation/images/image1.png "Optional title")
 
 ## System Architecture
 
@@ -83,9 +70,7 @@ Defines product groupings.
 Shipments:
 Tracks logistics details (carrier, tracking).
 
-[System Architecture Diagram](./Documentation/images/SystemArchitecture_Day2.pdf)
-
-## API EndPoints:
+## API EndPoints
 
 /api/create-order: Creates a new order.
 /api/orders: Fetches all orders (admin).
