@@ -22,17 +22,6 @@ ShopCO is a modern and responsive e-commerce platform designed to deliver a prem
 
 The project integrates robust technologies and workflows to create a solid foundation for e-commerce applications, focusing on dynamic content delivery and smooth user interactions.
 
-### 1. **Flowchart**
-
-```markdown
-```mermaid
-graph TD
-    A[User] -->|Browses| B[Frontend (Next.js)]
-    B -->|Fetches Data| C[Sanity CMS]
-    C -->|Serves Content| B
-    B -->|Sends Order| D[Order Management System]
-    D -->|Triggers Shipping| E[Shipping API]
-    D -->|Processes Payment| F[Payment Gateway]
 ## System Architecture
 
 Tools and Technologies:
