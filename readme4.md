@@ -1,6 +1,6 @@
 Shopco e-Commerce webiste 
 Project Purpose
-The purpose of this project is to create a visually appealing and user-friendly e-commerce platform for the Nike Shoes Store. It serves as a foundation for a full-fledged e-commerce application by demonstrating essential UI components and interactions, focusing on providing a seamless shopping experience.
+The purpose of this project is to create a visually appealing and user-friendly e-commerce platform for the Shopco clothing  Store. It serves as a foundation for a full-fledged e-commerce application by demonstrating essential UI components and interactions, focusing on providing a seamless shopping experience.
 
 Key Components
 Homepage:
